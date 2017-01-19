@@ -1,8 +1,9 @@
-�˿ⰴ��Realyģʽ�����PID�Զ���г��
-PID_NOR������Ҫ���κθĶ��� ��PID���ƵĿ����ļ�
-PID_AUTO������Ҫ���κθĶ��� ���Զ���г�Ŀ����ļ�
-PID_TEMP������Ҫ���κθĶ��� �ǽ��Realyģʽ����ɴ�PID���Ƶ��Զ����ε��ȶ��Ĺ������
-PID_Run �����˳�ʼ�����������̣��ɸ�����Ҫ�ı��Ҫ�Ŀ��Ʋ���
-MAIN ��һ����ε��ô˿��ʵ��������main.c�����Ĺ��̼������PID����
-
-���ߣ�JiangTingjia(kyzy_duck@163.com)
+此库按照Realy模式，完成PID自动调谐。
+PID_NOR（不需要做任何改动） 是PID控制的控制文件
+PID_AUTO（不需要做任何改动） 是自动调谐的控制文件
+//********以下文件由于特殊原因被删除了********//
+PID_TEMP（不需要做任何改动） 是结合Realy模式，完成从PID控制到自动调参到稳定的过程设计
+PID_Run 包含了初始化控制器过程，可根据需要改变必要的控制参数
+MAIN 是一个如何调用此库的实例，按照main.c描述的过程即可完成PID控制
+//****************如果有需要请邮件于我************//
+作者：JiangTingjia(kyzy_duck@163.com)
