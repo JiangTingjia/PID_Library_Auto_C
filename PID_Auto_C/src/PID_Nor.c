@@ -4,7 +4,7 @@
 *File:PID_Nor.h
 *Note: This file is used for PID Autoning
 ----------------------------------------------------------------------------------------*/
-#include "PID_Nor.h"
+#include "../include/PID_Nor.h"
 
 /*Constructor (...)*********************************************************
 *    The parameters specified here are those for for which we can't set up

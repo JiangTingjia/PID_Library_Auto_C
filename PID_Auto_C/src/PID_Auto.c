@@ -4,7 +4,7 @@
 *File:PID_Auto.c
 *Note: This file is used for PID Autoning
 ----------------------------------------------------------------------------------------*/
-#include "PID_Auto.h"
+#include "../include/PID_Auto.h"
 #include "math.h"
 
 /**********************************º¯Êý***************************/

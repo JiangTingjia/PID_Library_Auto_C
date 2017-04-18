@@ -18,6 +18,19 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.c" />
+    <ClCompile Include="src\PIDRun.c" />
+    <ClCompile Include="src\PIDTemp.c" />
+    <ClCompile Include="src\PID_Auto.c" />
+    <ClCompile Include="src\PID_Nor.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\PIDRun.h" />
+    <ClInclude Include="include\PIDTemp.h" />
+    <ClInclude Include="include\PID_Auto.h" />
+    <ClInclude Include="include\PID_Nor.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{5D3C6B8C-DB91-4F55-8DF0-C33AB207A8FE}</ProjectGuid>
     <RootNamespace>PID_Auto_C_Chinese</RootNamespace>

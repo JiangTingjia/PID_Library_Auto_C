@@ -4,7 +4,7 @@
 *File:PID_Nor.h
 *Note: 此文件完成PID调节的必要功能，不需要修改
 ----------------------------------------------------------------------------------------*/
-#include "PID_Nor.h"
+#include "../include/PID_Nor.h"
 
 /**********************************函数***************************/
 void PID(double* Input, double* Output, double* Setpoint, unsigned int *iCurTime, TEMP_NOR_STRUCT *sTempNor)
