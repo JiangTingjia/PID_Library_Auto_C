@@ -1,7 +1,7 @@
 /**********************************************************************************************
  * PID_Library_Auto_C - Version 0.0.0
  * by JiangTingjia <kyzy_duck@163.com>
- *
+ * 如果使用KEIL编写STM32，请将PID_V1.0.1目录复制至KEIL工程下，右键项目，选择OPTION中C/C++选项卡，在include path中添加头文件目录，并在Misc  control中增加 --cpp11
  * 1. PID Control
  * 2. Relay Method Autotuning
  * 
